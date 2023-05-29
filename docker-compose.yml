@@ -1,0 +1,22 @@
+version: "3.5"
+services:
+
+    clinfile-test:
+        build: php
+        container_name: www_docker_clinfile
+        ports:
+          - "8658:80"
+        volumes:
+            - ./php/vhosts1:/etc/apache2/sites-enabled
+            - ./:/var/www
+        restart: always
+        networks:
+            - dev
+            
+                        
+                              
+networks:
+    dev:
+
+volumes:
+    db-data:

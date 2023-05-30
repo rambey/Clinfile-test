@@ -1,7 +1,7 @@
 # Clinfile-test
 
 ## PHP exercices
-```bash
+```
 for the php exercises I made a kind of application which groups the classes necessary for the resolution and an index.php file as an entry point to view the results
 ```bash
 
@@ -33,24 +33,24 @@ Go to [http://localhost:8660/](http://localhost:8665) to show solution for php e
 
 Exercice 1 : autre méthode 
 
-```bash
-3 function locateUniverseFormula() {
-4 $path = realpath('/tmp/documents/');
-5 foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path)) as $filename)
-6 {
-7 if(strstr($filename, 'universe-formula')){
-8 return "$filename";
-9 }
-10
-11 }
-12 }
+```php
+function locateUniverseFormula() {
+ $path = realpath('/tmp/documents/');
+foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path)) as $filename)
+{
+if(strstr($filename, 'universe-formula')){
+ return "$filename";
+ }
 
-```bash
+}
+ }
+
+```
 ## Javascript exercices
 
 Exercice 1 
 
-```bash
+```javascript
 
 function findSmallestAbsoluteValue(ts) {
     if (ts.length > 0) {
@@ -66,6 +66,6 @@ function findSmallestAbsoluteValue(ts) {
 ```
 Exercice 2
 
-```bash
+```
 $ cette fonction prend une chaîne de caractères et un séparateur en entrée, divise la chaîne en un tableau en utilisant le séparateur, supprime les doublons et retourne le tableau résultant. Elle obtient une liste d'éléments uniques à partir d'une chaîne de caractères séparée par un certain motif.
 ```

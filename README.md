@@ -3,8 +3,7 @@
 ## PHP exercices
 ```
 for the php exercises I made a kind of application which groups the classes necessary for the resolution and an index.php file as an entry point to view the results
-```bash
-
+```
 ## Installation
 To  install dependencies with `Composer` first:
 
@@ -67,5 +66,5 @@ function findSmallestAbsoluteValue(ts) {
 Exercice 2
 
 ```
-$ cette fonction prend une chaîne de caractères et un séparateur en entrée, divise la chaîne en un tableau en utilisant le séparateur, supprime les doublons et retourne le tableau résultant. Elle obtient une liste d'éléments uniques à partir d'une chaîne de caractères séparée par un certain motif.
+cette fonction prend une chaîne de caractères et un séparateur en entrée, divise la chaîne en un tableau en utilisant le séparateur, supprime les doublons et retourne le tableau résultant. Elle obtient une liste d'éléments uniques à partir d'une chaîne de caractères séparée par un certain motif.
 ```

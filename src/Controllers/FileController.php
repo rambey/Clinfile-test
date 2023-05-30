@@ -18,7 +18,9 @@ class FileController
 
     public function locateUniverseFormula($directory): ?string
     {
+
         $files = scandir($directory);
+
 
         foreach ($files as $file) {
             if ($file === '.' || $file === '..') {
@@ -28,7 +30,7 @@ class FileController
             $path = $directory . '/' . $file;
 
             if (is_dir($path)) {
-                $result = locateUniverseFormula($path);
+                $result = $this->locateUniverseFormula($path);
                 if ($result !== null) {
                     return $result;
                 }
@@ -38,6 +40,5 @@ class FileController
         }
 
         return null;
-
     }
 }

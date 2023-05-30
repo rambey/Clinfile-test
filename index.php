@@ -27,3 +27,7 @@ $jsonContent2 = file_get_contents($jsonPath2);
 $filterController->generateFilterAction($filterGenerator,$jsonContent);
 echo "<br><br>";
 $filterController->generateFilterAction($filterGenerator2,$jsonContent2);
+echo "<br><br>";
+echo "_____________________________________________________________________________________________________";
+echo "<br><br>";
+

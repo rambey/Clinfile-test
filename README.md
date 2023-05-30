@@ -27,7 +27,7 @@ $ docker-compose  --build
 ```bash
 $ docker-compose  up -d
 ```
-Go to [http://localhost:8660/](http://localhost:8665) to show solution for php exercices 1 et 2
+Go to [http://localhost:8665/](http://localhost:8665) to show solution for php exercices 1 et 2
 
 
 Exercice 1 : autre méthode 

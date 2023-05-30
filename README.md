@@ -8,7 +8,7 @@ for the php exercises I made a kind of application which groups the classes nece
 To  install dependencies with `Composer` first:
 
 ```bash
-$ composer init
+$ composer install
 ```
 To  update dependencies with `Composer` first:
 
